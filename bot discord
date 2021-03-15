@@ -1,13 +1,13 @@
 discord: {
     token: ODIwOTQzMjAzOTk3MTg4MDk3.YE8g8A.Zlf3FX6bJlYzfwC_Mjct_DZAej4,
-    prefix: s,
+    prefix: s!,
     activity: play music
 #With Node
 node index.js
 npm start #Indicated in package.json
 
 #With pm2
-pm2 start index.js --name "MusicBot"
+pm2 start index.js --name "Space"
 play <name/URL>, play music in a voice channel.
 search <name>, open a panel to choose a music and then play it.
 pause, pause the current music.
